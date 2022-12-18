@@ -13,4 +13,8 @@ public class MenuScript : MonoBehaviour
     {
         SceneManager.LoadScene("SphereFallScene");
     }
+    public void MainScene()
+    {
+        SceneManager.LoadScene("MainScene");
+    }
 }
